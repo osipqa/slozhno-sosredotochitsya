@@ -4,11 +4,99 @@
   border: 1px solid #fff;
   width: 1024px;
   height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
 
 .header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-items: end;
+  align-items: center;
+  padding: 20px;
+  font-size: 18px;
+  background-image: url(../images/cover-image-dark.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  block-size: 100vh;
+  min-block-size: 768px;
 }
+
+.header__theme-menu-list {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+}
+
+.header__theme-menu-button {
+  display: inline-block;
+  position: relative;
+  border: 1px solid var(--main-nav-color);
+  color: var(--main-nav-color);
+  line-height: 1;
+  text-transform: lowercase;
+  background-color: transparent;
+  appearance: none;
+
+}
+
+.header__text-title {
+  color: var(--main-header-title);
+  text-shadow: 4px 4px 0 var(--main-header-shadow);
+  line-height: 82.5%;
+  font-size: 157px;
+  justify-self: start;
+  display: flex;
+}
+
+/* надпись REC */
+.header__decor {
+  position: absolute;
+  color: var(--main-nav-color);
+  font-size: 18px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  inset-inline-end: calc(9px + 39px);
+  inset-block-start: calc(9px + 13px);
+}
+
+.header__decor::after {
+  content: 'rec';
+}
+
+.header__decor::before {
+  content: '';
+  position: absolute;
+  inline-size: 9px;
+  block-size: 9px;
+  margin: -5px -20px;
+  border-radius: 50%;
+  box-shadow: 0 0 4px 2px var(--main-nav-color);
+  background-color: var(--main-nav-color);
+  inset-inline-end: 0;
+  inset-block-start: 50%;
+}
+
+.decorated-zone::after {
+  content: '';
+  position: absolute;
+  inline-size: 25px;
+  block-size: 25px;
+  border-inline-start: 1px solid var(--main-nav-color);
+  border-block-end: 1px solid var(--main-nav-color);
+  inset-inline-start: 20px;
+  inset-block-end: 20px;
+}
+
+.decorated-zone::before {
+  content: '';
+  position: absolute;
+  inline-size: 25px;
+  block-size: 25px;
+  border-inline-end: 1px solid var(--main-nav-color);
+  border-block-start: 1px solid var(--main-nav-color);
+  inset-inline-end: 20px;
+  inset-block-start: 20px;
+}
+/* конец надпись REC */

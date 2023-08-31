@@ -4,8 +4,11 @@
 */
 
 :root {
-  --mainColor: #FF0070;
-  --headerColor: #DB00FF;
-  --heading: #FF0070;
-  --deschead: #000028;
+  --accent-color: #ff0070;
+  --main-background-color: #000028;
+  --main-font: 'IMB Plex mono', sans-serif;
+  --main-text-color: #f1b2ce;
+  --main-nav-color: #ff0070;
+  --main-header-title: #db00ff;
+  --main-header-shadow: #ff0070;
 }
