@@ -9,9 +9,8 @@
 
 .header {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-items: end;
+  display: grid;
+  grid-template-rows: 1fr min-content 1fr;
   align-items: center;
   padding: 20px;
   font-size: 18px;
@@ -25,20 +24,32 @@
 
 .header__theme-menu-list {
   display: flex;
-  flex-direction: row;
   gap: 18px;
+}
+
+.header__theme-menu {
+  justify-self: center;
+  align-self: flex-start;
 }
 
 .header__theme-menu-button {
   display: inline-block;
   position: relative;
-  border: 1px solid var(--main-nav-color);
+  border: none;
   color: var(--main-nav-color);
   line-height: 1;
   text-transform: lowercase;
   background-color: transparent;
   appearance: none;
+  padding: 1.5px 13px;
+}
 
+.header__theme-menu-button_active {
+  border: 1px solid var(--main-nav-color);
+}
+
+.header__theme-menu-button:hover {
+  border: 1px solid var(--main-nav-color);
 }
 
 .header__text-title {
@@ -47,7 +58,6 @@
   line-height: 82.5%;
   font-size: 157px;
   justify-self: start;
-  display: flex;
 }
 
 /* надпись REC */
@@ -100,3 +110,21 @@
   inset-block-start: 20px;
 }
 /* конец надпись REC */
+
+
+.header__text-block {
+  background-color: var(--accent-color);
+  inline-size: 46%;
+  justify-self: end;
+  align-items: center;
+  block-size: 19%;
+}
+
+.header__text-paragraph {
+  color: var(--main-heading-text-color);
+  font-weight: bold;
+  font-family: var(--main-font);
+  font-size: 18px;
+  font-style: normal;
+  line-height: 130%;
+}
