@@ -16,4 +16,21 @@
   --main-header-title: #db00ff;
   --main-header-shadow: #ff0070;
   --main-section-heading-color: #ff0070;
+  --header-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --footer-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }
+
+@media screen and (width <= 375px) {
+  :root {
+    --header-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem); 
+    --footer-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  }
+}
+
+@media screen and (width <= 768px) {
+  :root {
+    --header-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --footer-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+}
+
