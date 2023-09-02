@@ -13,7 +13,7 @@
   font-size: var(--main-text-size);
   background-image: url(../images/bg-img/cover-image.png);
   background-position: center;
-  background-size: cover; 
+  background-size: cover;
   background-repeat: no-repeat;
   block-size: 100vh;
 }
@@ -135,11 +135,6 @@
   line-height: var(--main-line-height);
 }
 
-.content__image-grid {
-  display: grid;
-  gap: var(--main-gap);
-}
-
 .content__section:not(:last-of-type) {
   margin-block-end: calc(var(--main-gap) * 6);
 }
@@ -193,6 +188,8 @@
 }
 
 .content__image-grid {
+  display: grid;
+  gap: var(--main-gap);
   block-size: 100%;
   inline-size: 100%;
   object-fit: cover;
