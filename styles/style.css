@@ -130,10 +130,6 @@
   line-height: var(--main-line-height);
 }
 
-.content__section-title_bold {
-  margin-block-end: calc(var(--main-gap) * 2) ;
-}
-
 .content__section:not(:last-of-type) {
   margin-block-end: calc(var(--main-gap) * 8);
 }
@@ -172,6 +168,7 @@
   color: var(--main-section-heading-color);
   font-size: var(--main-text-size);
   line-height: var(--main-line-height);
+  margin-block-end: calc(var(--main-gap) * 2);
 }
 
 .content__text-paragraph {
