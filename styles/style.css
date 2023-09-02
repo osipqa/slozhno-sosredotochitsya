@@ -237,6 +237,9 @@
 }
 
 @media screen and (width >= 768px) {
+  .content__article-block {
+    margin-block-start: 0;
+  }
   .decorated-zone::before {
     inset-block-start: calc(var(--main-gap) * 2);
     inset-inline-end: calc(var(--main-gap) * 2);
