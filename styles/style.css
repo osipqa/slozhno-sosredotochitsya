@@ -52,9 +52,11 @@
 .header__text-title {
   color: var(--main-header-title);
   text-shadow: 4px 4px 0 var(--main-header-shadow);
+  inset-inline-start: calc(-2 * var(--main-gap));
   line-height: 82.5%;
   font-size: 157px;
   justify-self: start;
+  position: relative;
 }
 
 /* надпись REC */
