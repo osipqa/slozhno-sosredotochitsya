@@ -13,7 +13,7 @@
   font-size: var(--main-text-size);
   background-image: url(../images/bg-img/cover-image.png);
   background-position: center;
-  background-size: cover;
+  background-size: cover; 
   background-repeat: no-repeat;
   block-size: 100vh;
 }
@@ -300,9 +300,5 @@
   }
   .why .content__section-block {
     grid-column: span 2;
-  }
-
-  .content__text-paragraph {
-    margin-block-end: 0;
   }
 }
