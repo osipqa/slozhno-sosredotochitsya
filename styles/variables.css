@@ -16,13 +16,8 @@
   --main-header-title: #db00ff;
   --main-header-shadow: #ff0070;
   --main-section-heading-color: #ff0070;
-}
-
-@media screen and (width <= 375px) {
-  :root {
-    --footer-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-    --header-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  }
+  --footer-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --header-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }
 
 @media screen and (width >= 768px) {
