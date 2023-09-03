@@ -61,7 +61,6 @@
   position: relative;
   border: 1px solid transparent;
   color: var(--main-nav-color);
-  transition: transform 0.5s;
   line-height: 1;
   text-transform: lowercase;
   font-weight: normal;
