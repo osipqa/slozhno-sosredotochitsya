@@ -10,6 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --accent-color: #ff8dcb;
+  --nav-hover-effect: rgba(50, 49, 45, .4);
   --main-background-color: #fff1f7;
   --main-heading-text-color: #353430;
   --main-font: 'IBM Plex mono', monospace;
@@ -20,15 +21,6 @@
   --main-section-heading-color: #353430;
   --display-none: none;
   --image-disp: url(../images/bg-img/cover-image-light.png);
-}
-
-
-.header {
-  background-image: var(--image-disp);
-}
-
-.header__decor {
-  display: var(--display-none);
 }
 
 @media (prefers-color-scheme: light) {
@@ -44,11 +36,7 @@
     --main-section-heading-color: #353430;
     --display-none: none;
     --image-disp: url(../images/bg-img/cover-image-light.png);
-  }
-  .header {
-    background-image: var(--image-disp);
-  }
-  
+  } 
   .header__decor {
     display: var(--display-none);
   }

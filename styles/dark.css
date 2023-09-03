@@ -10,6 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --accent-color: #ff0070;
+  --nav-hover-effect: rgba(255, 0, 112, .4);
   --main-background-color: #000028;
   --main-heading-text-color: #000028;
   --main-font: 'IBM Plex mono', monospace;
@@ -44,8 +45,4 @@
   .header {
     background-image: var(--image-disp);
   }
-}
-
-.header {
-  background-image: var(--image-disp);
 }
