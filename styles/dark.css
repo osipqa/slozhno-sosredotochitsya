@@ -46,7 +46,4 @@
 
 .page {
   background-image: url(../images/bg-img/cover-image-dark.png);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
 }

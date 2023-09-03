@@ -41,6 +41,11 @@
   align-items: center;
 }
 
+.header__theme-menu-button:focus-visible {
+  outline: none;
+  border-block-end: 1px solid var(--main-nav-color);
+}
+
 .content__text-link {
   text-shadow: 2px 2px 0 var(--accent-color);
 }
@@ -264,23 +269,6 @@
 }
 
 @media screen and (width >= 768px) {
-  .header__decor::after {
-    content: 'rec';
-  }
-  
-  .header__decor::before {
-    content: '';
-    position: absolute;
-    inline-size: 9px;
-    block-size: 9px;
-    margin: -5px -20px;
-    border-radius: 50%;
-    box-shadow: 0 0 4px 2px var(--main-nav-color);
-    background-color: var(--main-nav-color);
-    inset-inline-end: 0;
-    inset-block-start: 50%;
-  }
-
   .content__section:not(:last-of-type) {
     margin-block-end: calc(var(--main-gap) * 6);
   }

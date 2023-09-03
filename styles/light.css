@@ -45,9 +45,6 @@
 
 .page {
   background-image: var(--image-disp);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 .header__decor {
