@@ -23,20 +23,13 @@
   --image-disp: url(../images/bg-img/cover-image-light.png);
 }
 
-.header {
-  background-image: var(--image-disp);
-}
-
-.header__decor {
-  display: var(--display-none);
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: #ff8dcb;
     --main-background-color: #fff1f7;
     --main-heading-text-color: #353430;
     --main-font: 'IBM Plex mono', monospace;
+    --nav-hover-effect: rgba(50, 49, 45, .4);
     --main-text-color: #353430;
     --main-nav-color: #353430;
     --main-header-title: #ffc2e6;
@@ -45,12 +38,18 @@
     --display-none: none;
     --image-disp: url(../images/bg-img/cover-image-light.png);
   }
-
-  .header {
-    background-image: var(--image-disp);
-  }
-
   .header__decor {
     display: var(--display-none);
   }
+}
+
+.page {
+  background-image: var(--image-disp);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header__decor {
+  display: var(--display-none);
 }
