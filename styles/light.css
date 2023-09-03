@@ -23,12 +23,12 @@
   --image-disp: url(../images/bg-img/cover-image-light.png);
 }
 
-.header__decor {
-  display: var(--display-none);
-}
-
 .header {
   background-image: var(--image-disp);
+}
+
+.header__decor {
+  display: var(--display-none);
 }
 
 @media (prefers-color-scheme: light) {
