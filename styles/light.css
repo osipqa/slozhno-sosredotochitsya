@@ -36,7 +36,12 @@
     --main-section-heading-color: #353430;
     --display-none: none;
     --image-disp: url(../images/bg-img/cover-image-light.png);
-  } 
+  }
+
+  .header {
+    background-image: var(--image-disp);
+  }
+
   .header__decor {
     display: var(--display-none);
   }
