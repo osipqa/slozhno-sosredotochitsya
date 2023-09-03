@@ -23,6 +23,14 @@
   --image-disp: url(../images/bg-img/cover-image-light.png);
 }
 
+.header__decor {
+  display: var(--display-none);
+}
+
+.header {
+  background-image: var(--image-disp);
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: #ff8dcb;
