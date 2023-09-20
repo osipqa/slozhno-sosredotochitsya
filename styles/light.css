@@ -25,8 +25,38 @@
   --link-border-style-default-and-focus: 1px solid #353430;
   --side-angles: 1px solid #353430;
   --text-weight: 700;
-  background-image: url(../images/cover-image-light.png);
+  --image-disp: url(../images/cover-image-light.png);
   --rec-visible: hidden;
   --button-active-style: 1px solid #353430;
   --a-shadow-style: 2px 2px 0px #ff8dcb;
 }
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --accent-color: #353430;
+    --text-p-color: #353430;
+    --title-text-color: #353430;
+    --title-background-color: #ff8dcb;
+    --title-color: #ffc2e6;
+    --title-shadow: 4px 4px 0px #ff0070;
+    --title-shadow-mobile: 4px 4px 0px #ff8dc8;
+    --main-font: "IBM Plex Mono", monospace;
+    --text-size: 18px;
+    --line-height-size: 23.4px;
+    --border-style-hover: 1px solid rgba(50, 49, 45, 0.4);
+    --border-style-default-and-focus: 1px solid #353430;
+    --link-border-style-hover: 1px solid #353430;
+    --link-border-style-default-and-focus: 1px solid #353430;
+    --side-angles: 1px solid #353430;
+    --text-weight: 700;
+    --image-disp: url(../images/cover-image-light.png);
+    --rec-visible: hidden;
+    --button-active-style: 1px solid #353430;
+    --a-shadow-style: 2px 2px 0px #ff8dcb;
+  }
+}
+
+  .page {
+    background-image: var(--image-disp);
+  }

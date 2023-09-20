@@ -25,7 +25,7 @@
   --link-border-style-default-and-focus: 1px solid #F1B2CE;
   --side-angles: 1px solid #ff0070;
   --text-weight: 700;
-  background-image: url(../images/cover-image-dark.png);
+  --image-disp: url(../images/cover-image-dark.png);
   --rec-visible: visible;
   --button-active-style: 1px solid #ff0070;
   --a-shadow-style: 2px 2px 0px #ff0070;
@@ -50,9 +50,11 @@
     --line-height-size: 23.4px;
     --border-style-hover: 1px solid rgba(255, 0, 112, 0.40);
     --border-style-default-and-focus: 1px solid #FF0070;
+    --link-border-style-hover: 2px solid #F1B2CE;
+    --link-border-style-default-and-focus: 1px solid #F1B2CE;
     --side-angles: 1px solid #ff0070;
     --text-weight: 700;
-    --image-href: url("../images/cover-image-dark.png");
+    --image-disp: url(../images/cover-image-dark.png);
     --rec-visible: visible;
     --button-active-style: 1px solid #ff0070;
     --a-shadow-style: 2px 2px 0px #ff0070;
@@ -60,9 +62,6 @@
   }
 
   .page {
-background-image: url(../images/cover-image-dark.png);
-}
-  
-}
-
+    background-image: url(../images/cover-image-dark.png);
+  }
 /* Остальные стили */
