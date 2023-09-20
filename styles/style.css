@@ -8,6 +8,13 @@
   background-position: center;
 }
 
+body {
+  background-image: url(../images/cover-image.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
 .header__theme-menu-button {
   color: var(--accent-color);
   text-align: center;

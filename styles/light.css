@@ -29,6 +29,8 @@
   --rec-visible: hidden;
   --button-active-style: 1px solid #353430;
   --a-shadow-style: 2px 2px 0px #ff8dcb;
+  background-image: var(--image-disp);
+  background-color: #fff1f7;
 }
 
 
