@@ -29,6 +29,7 @@
   --rec-visible: hidden;
   --button-active-style: 1px solid #353430;
   --a-shadow-style: 2px 2px 0px #ff8dcb;
+  background-image: url(../images/cover-image-dark.png);
 }
 
 @media (prefers-color-scheme: light) {
