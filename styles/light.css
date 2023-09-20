@@ -59,6 +59,7 @@
 
   .page {
     background-image: var(--image-disp);
+    background-color: #fff1f7;
   }
 
   body {

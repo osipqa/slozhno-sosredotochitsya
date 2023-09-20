@@ -58,11 +58,18 @@
     --rec-visible: visible;
     --button-active-style: 1px solid #ff0070;
     --a-shadow-style: 2px 2px 0px #ff0070;
-
+  }
   }
 
   .page {
     background-image: url(../images/cover-image-dark.png);
-  }
+    background-color: #000028;
 /* Остальные стили */
+}
+
+body {
+  background-image: url(../images/cover-image-dark.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
