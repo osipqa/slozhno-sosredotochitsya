@@ -60,3 +60,10 @@
   .page {
     background-image: var(--image-disp);
   }
+
+  body {
+    background-image: url(../images/cover-image-light.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
