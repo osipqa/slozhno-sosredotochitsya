@@ -25,7 +25,7 @@
   --link-border-style-default-and-focus: 1px solid #F1B2CE;
   --side-angles: 1px solid #ff0070;
   --text-weight: 700;
-  --image-href: url("../images/cover-image-dark.png");
+  --image-href: url(../images/cover-image-dark.png);
   --rec-visible: visible;
   --button-active-style: 1px solid #ff0070;
   --a-shadow-style: 2px 2px 0px #ff0070;
@@ -50,14 +50,16 @@
     --border-style-default-and-focus: 1px solid #FF0070;
     --side-angles: 1px solid #ff0070;
     --text-weight: 700;
-    --image-href: url("../images/cover-image-dark.png");
+    --image-href: url(../images/cover-image-dark.png);
     --rec-visible: visible;
     --button-active-style: 1px solid #ff0070;
     --a-shadow-style: 2px 2px 0px #ff0070;
   }
+  
   .page { 
     background-image: var(--image-href);
   }
+
 }
 
 /* Остальные стили */
