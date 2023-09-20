@@ -9,31 +9,44 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --accent-color: #353430;
-  --text-p-color: #353430;
-  --title-text-color: #353430;
-  --title-background-color: #ff8dcb;
-  --title-color: #ffc2e6;
-  --title-shadow: 4px 4px 0px #ff0070;
-  --title-shadow-mobile: 4px 4px 0px #ff8dc8;
-  --main-font: "IBM Plex Mono", monospace;
-  --text-size: 18px;
-  --line-height-size: 23.4px;
-  --border-style-hover: 1px solid rgba(50, 49, 45, 0.4);
-  --border-style-default-and-focus: 1px solid #353430;
-  --link-border-style-hover: 1px solid #353430;
-  --link-border-style-default-and-focus: 1px solid #353430;
-  --side-angles: 1px solid #353430;
-  --text-weight: 700;
-  --image-href: url(../images/cover-image-light.png);
-  --rec-visible: hidden;
-  --button-active-style: 1px solid #353430;
-  --a-shadow-style: 2px 2px 0px #ff8dcb;
-  background-image: url(../images/cover-image-dark.png);
+  --accent-color: #ff8dcb;
+  --nav-hover-effect: rgba(50, 49, 45, .4);
+  --main-background-color: #fff1f7;
+  --main-heading-text-color: #353430;
+  --main-font: 'IBM Plex mono', monospace;
+  --main-text-color: #353430;
+  --main-nav-color: #353430;
+  --main-header-title: #ffc2e6;
+  --main-header-shadow: #ff8dcb;
+  --main-section-heading-color: #353430;
+  --display-none: none;
+  --image-disp: url(../images/bg-img/cover-image-light.png);
 }
 
 @media (prefers-color-scheme: light) {
-  .page {
-    background-image: var(--image-href);
+  :root {
+    --accent-color: #ff8dcb;
+    --main-background-color: #fff1f7;
+    --main-heading-text-color: #353430;
+    --main-font: 'IBM Plex mono', monospace;
+    --nav-hover-effect: rgba(50, 49, 45, .4);
+    --main-text-color: #353430;
+    --main-nav-color: #353430;
+    --main-header-title: #ffc2e6;
+    --main-header-shadow: #ff8dcb;
+    --main-section-heading-color: #353430;
+    --display-none: none;
+    --image-disp: url(../images/bg-img/cover-image-light.png);
   }
+  .header__decor {
+    display: var(--display-none);
+  }
+}
+
+.page {
+  background-image: var(--image-disp);
+}
+
+.header__decor {
+  display: var(--display-none);
 }
