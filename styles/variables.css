@@ -20,7 +20,7 @@
   --side-angles: 1px solid #353430;
   --button-active-style: 1px solid #353430;
   --text-weight: 700;
-  --image-href: url('../images/cover-image-light.png');
+  --image-href: url(../images/cover-image-light.png);
   --rec-visible: hidden;
   --button-active-style: 1px solid #353430;
   --a-shadow-style: 2px 2px 0px #ff8dcb;
